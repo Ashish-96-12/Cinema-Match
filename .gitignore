@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# Created when the notebook runs (uploaded scripts, breakdown exports)
+cinema_match_data/
