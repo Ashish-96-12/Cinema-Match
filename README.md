@@ -45,4 +45,4 @@ PDF, DOCX, TXT, Markdown and Fountain. Scene headings can be:
 - Numbered scenes from Final Draft / WriterDuet / Celtx: `12 INT. HOUSE - DAY 12`
 - Scene-number style common in Indian and TV scripts: `SCENE 1 - EXT - TEMPLE - NIGHT`, `Sc. 9: Village road / Day`
 
-Scanned PDFs (images of pages) need OCR before upload. If no headings are found, the whole script is treated as one scene and the app tells you.
+Scanned PDFs, photos of pages, and PDFs whose text doesn't copy out (common with Telugu and Hindi fonts) work when `ANTHROPIC_API_KEY` is set: Claude reads the pages directly, in the original language. Without a key, upload those as .docx or .txt instead. If no scene headings are found, the whole script is treated as one scene and the app tells you.
